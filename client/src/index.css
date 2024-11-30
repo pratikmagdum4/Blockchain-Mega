@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .linear-gradient {
+    background: linear-gradient(
+      135deg, /* Change the angle if you want */
+      rgba(2, 2, 7, 0.8) 0%,  /* Tomato */
+      rgba(255, 165, 0, 0.8) 50%, /* Orange */
+      rgba(34, 193, 195, 0.8) 100% /* Turquoise */
+    );
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(0.8);
+  }
+  
